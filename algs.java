@@ -47,6 +47,40 @@ public class algs {
         return array;
     }
 
-    public static void quickSort(int[] array
+    public static void quickSort(int[] array, int low, int high) {
+        if (low < high) {
+            int pivotIndex = randomPartition(array, low, high);
+            quickSort(array, low, pivotIndex - 1);
+            quickSort(array, pivotIndex + 1, high);
+        }
+    }
+
+    private static int randomPartition(int[] array, int low, int high) {
+        Random random = new Random();
+        int pivotIndex = low + random.nextInt(high - low + 1); // random pivot
+        swap(array, pivotIndex, high); // move pivot to the end
+        return partition(array, low, high);
+    }
+
+    private static int partition(int[] array, int low, int high) {
+        int pivot = array[high];
+        int i = low - 1;
+        for (int j = low; j < high; j++) {
+            if (array[j] < pivot) {
+                i++;
+                swap(array, i, j);
+            }
+        }
+        swap(array, i + 1, high);
+        return i + 1;
+    }
+
+    private static void swap(int[] array, int i, int j) {
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+
+    
 }
 
