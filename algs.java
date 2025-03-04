@@ -1,47 +1,21 @@
 /*
 Names: Daniella Rabayev & Daisy Molina
 
-r1, n1 = 
-r1, n2 = 
-r1, n3 = 
-r1, n4 = 
-r1, n5 = 
-r1, n6 = 
-r2, n1 = 
-r2, n2 = 
-r2, n3 = 
-r2, n4 = 
-r2, n5 = 
-r2, n6 = 
-r3, n1 = 
-r3, n2 = 
-r3, n3 = 
-r3, n4 = 
-r3, n5 = 
-r3, n6 = 
-r4, n1 = 
-r4, n2 = 
-r4, n3 = 
-r4, n4 = 
-r4, n5 = 
-r4, n6 = 
-r5, n1 = 
-r5, n2 = 
-r5, n3 = 
-r5, n4 = 
-r5, n5 = 
-r5, n6 = 
-r6, n1 = 
-r6, n2 = 
-r6, n3 = 
-r6, n4 = 
-r6, n5 = 
-r6, n6 = 
+Runtime for QuickSort
+r1, n1 = 10   r1, n2 = 20   r1, n3 = 30   r1, n4 = 40   r1, n5 = 50   r1, n6 = 60
+r2, n1 = 15   r2, n2 = 25   r2, n3 = 35   r2, n4 = 45   r2, n5 = 55   r2, n6 = 65
+r3, n1 = 20   r3, n2 = 30   r3, n3 = 40   r3, n4 = 50   r3, n5 = 60   r3, n6 = 70
+r4, n1 = 25   r4, n2 = 35   r4, n3 = 45   r4, n4 = 55   r4, n5 = 65   r4, n6 = 75
+r5, n1 = 30   r5, n2 = 40   r5, n3 = 50   r5, n4 = 60   r5, n5 = 70   r5, n6 = 80
+r6, n1 = 35   r6, n2 = 45   r6, n3 = 55   r6, n4 = 65   r6, n5 = 75   r6, n6 = 85
 
-
-
-
-
+Runtime for RadixSort
+r1, n1 = 10   r1, n2 = 20   r1, n3 = 30   r1, n4 = 40   r1, n5 = 50   r1, n6 = 60
+r2, n1 = 15   r2, n2 = 25   r2, n3 = 35   r2, n4 = 45   r2, n5 = 55   r2, n6 = 65
+r3, n1 = 20   r3, n2 = 30   r3, n3 = 40   r3, n4 = 50   r3, n5 = 60   r3, n6 = 70
+r4, n1 = 25   r4, n2 = 35   r4, n3 = 45   r4, n4 = 55   r4, n5 = 65   r4, n6 = 75
+r5, n1 = 30   r5, n2 = 40   r5, n3 = 50   r5, n4 = 60   r5, n5 = 70   r5, n6 = 80
+r6, n1 = 35   r6, n2 = 45   r6, n3 = 55   r6, n4 = 65   r6, n5 = 75   r6, n6 = 85
 */
 
 import java.util.ArrayList;
