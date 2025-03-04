@@ -1,3 +1,49 @@
+/*
+Names: Daniella Rabayev & Daisy Molina
+
+r1, n1 = 
+r1, n2 = 
+r1, n3 = 
+r1, n4 = 
+r1, n5 = 
+r1, n6 = 
+r2, n1 = 
+r2, n2 = 
+r2, n3 = 
+r2, n4 = 
+r2, n5 = 
+r2, n6 = 
+r3, n1 = 
+r3, n2 = 
+r3, n3 = 
+r3, n4 = 
+r3, n5 = 
+r3, n6 = 
+r4, n1 = 
+r4, n2 = 
+r4, n3 = 
+r4, n4 = 
+r4, n5 = 
+r4, n6 = 
+r5, n1 = 
+r5, n2 = 
+r5, n3 = 
+r5, n4 = 
+r5, n5 = 
+r5, n6 = 
+r6, n1 = 
+r6, n2 = 
+r6, n3 = 
+r6, n4 = 
+r6, n5 = 
+r6, n6 = 
+
+
+
+
+
+*/
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
