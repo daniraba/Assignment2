@@ -1,22 +1,22 @@
 /*
 Names: Daniella Rabayev & Daisy Molina
 
-
+        1     2      3    4    5  6
 n = 100000, 10000, 1000, 100, 10, 1
 r = 100000, 10000, 1000, 100, 10, 1
 
 Runtime for QuickSort (nanoseconds)
-r1, n1 = 10   r1, n2 = 20   r1, n3 = 30   r1, n4 = 292100   r1, n5 = 12900   r1, n6 = 1000
-r2, n1 = 15   r2, n2 = 25   r2, n3 = 35   r2, n4 = 184100   r2, n5 = 20200   r2, n6 = 1700
-r3, n1 = 20   r3, n2 = 30   r3, n3 = 40   r3, n4 = 165900   r3, n5 = 12200   r3, n6 = 1100
+r1, n1 = 10   r1, n2 = 19737542   r1, n3 = 3787458   r1, n4 = 292100   r1, n5 = 12900   r1, n6 = 1000
+r2, n1 = 15   r2, n2 = 22359625   r2, n3 = 3848083   r2, n4 = 184100   r2, n5 = 20200   r2, n6 = 1700
+r3, n1 = 20   r3, n2 = 11145083   r3, n3 = 2426750   r3, n4 = 165900   r3, n5 = 12200   r3, n6 = 1100
 r4, n1 = 25   r4, n2 = 35   r4, n3 = 45   r4, n4 = 191300   r4, n5 = 13400   r4, n6 = 1000
 r5, n1 = 30   r5, n2 = 40   r5, n3 = 50   r5, n4 = 144400   r5, n5 = 13400   r5, n6 = 1400
 r6, n1 = 35   r6, n2 = 45   r6, n3 = 55   r6, n4 = 78600   r6, n5 = 11300   r6, n6 = 1200
 
 Runtime for RadixSort (nanoseconds)
-r1, n1 = 10   r1, n2 = 20   r1, n3 = 30   r1, n4 = 60500   r1, n5 = 19100   r1, n6 = 10100
-r2, n1 = 15   r2, n2 = 25   r2, n3 = 35   r2, n4 = 82500   r2, n5 = 20800   r2, n6 = 17600
-r3, n1 = 20   r3, n2 = 30   r3, n3 = 40   r3, n4 = 37200   r3, n5 = 13300   r3, n6 = 18100
+r1, n1 = 10   r1, n2 = 1693292   r1, n3 = 416834   r1, n4 = 60500   r1, n5 = 19100   r1, n6 = 10100
+r2, n1 = 15   r2, n2 = 1598458   r2, n3 = 350959   r2, n4 = 82500   r2, n5 = 20800   r2, n6 = 17600
+r3, n1 = 20   r3, n2 = 2192958   r3, n3 = 532417   r3, n4 = 37200   r3, n5 = 13300   r3, n6 = 18100
 r4, n1 = 25   r4, n2 = 35   r4, n3 = 45   r4, n4 = 72700   r4, n5 = 20800   r4, n6 = 12500
 r5, n1 = 30   r5, n2 = 40   r5, n3 = 50   r5, n4 = 55900   r5, n5 = 15000   r5, n6 = 11000
 r6, n1 = 35   r6, n2 = 45   r6, n3 = 55   r6, n4 = 63600   r6, n5 = 20400   r6, n6 = 11900
@@ -34,7 +34,7 @@ public class algs {
         int[] array = new int[n];
         int i = 0;
         while (i < n) {
-            int num = random.nextInt(1_000_000); // Number in the interval [0, 999999]
+            int num = random.nextInt(10_000_000_000); // Number in the interval [0, 999999]
             int reps = 1 + random.nextInt(2 * r); // Repetitions in the range [1, 2r]
             for (int j = 0; j < reps && i < n; j++, i++) {
                 array[i] = num;
