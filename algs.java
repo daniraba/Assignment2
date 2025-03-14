@@ -20,6 +20,14 @@ r3, n1 = 19495875   r3, n2 = 2192958   r3, n3 = 532417   r3, n4 = 37200   r3, n5
 r4, n1 = 20933833   r4, n2 = 2654083   r4, n3 = 627042   r4, n4 = 72700   r4, n5 = 20800   r4, n6 = 12500
 r5, n1 = 7236166   r5, n2 = 2768458   r5, n3 = 550250   r5, n4 = 55900   r5, n5 = 15000   r5, n6 = 11000
 r6, n1 = 16730916   r6, n2 = 1952834   r6, n3 = 2756666  r6, n4 = 63600   r6, n5 = 20400   r6, n6 = 11900
+
+Questions: 
+When n is multiplied by 10, the running time of Quicksort increases significantly, while Radixsort increase more slowly. When r is increased,
+Radixsort shows more improvement than Quicksort. Radixsort is generally better for datasets with larger inputs and repititions.
+Radixsort is better with more repititions because it is a non-comparative sort, whereas Quicksort is slower because comparisons are done.
+For small values of n, both Quicksort and Radixsort have the same general runtime.Radixsort is consistently better than Quicksort with larger datasets
+with more repititions.
+
 */
 
 import java.util.ArrayList;
